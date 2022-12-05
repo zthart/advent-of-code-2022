@@ -40,5 +40,6 @@ def main():
 if __name__ == "__main__":
     all_snacks = main()
     print(
-        f"top:\t{all_snacks.get_top_cals()}\ntop 3:\t{all_snacks.get_sum_of_top_n(3)}"
+        f"top:\t{all_snacks.get_top_cals()}\n"
+        f"top 3:\t{all_snacks.get_sum_of_top_n(3)}"
     )
